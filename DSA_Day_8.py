@@ -208,3 +208,14 @@
 #         print("invalid")
 
 # ==========================
+# https://leetcode.com/problems/running-sum-of-1d-array/?utm_source=chatgpt.com
+# 1480. Running Sum of 1d Array
+# class Solution:
+#     def runningSum(self, nums: List[int]) -> List[int]:
+#         prefix = []
+#         total = 0
+#         for i in nums:
+#             total+=i
+#             prefix.append(total)
+#         return prefix
+# ==================================
