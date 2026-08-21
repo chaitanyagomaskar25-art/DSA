@@ -54,3 +54,16 @@
 #     print(ans)
 
 # ========================
+# https://leetcode.com/problems/maximum-average-subarray-i/?utm_source=chatgpt.com
+
+# class Solution:
+#     def findMaxAverage(self, nums: List[int], k: int) -> float:
+#         s = 0
+#         m= float("-inf")
+#         for i in range(len(nums)):
+#             s+=nums[i]
+#             if i >= k-1:
+#                 a = s/k
+#                 m = max(a,m)
+#                 s-=nums[i-k+1]
+        # return m
