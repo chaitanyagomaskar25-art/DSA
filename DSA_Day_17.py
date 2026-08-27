@@ -215,4 +215,3 @@
 #             result.append(a[rows][l])
 #         l +=1
 # print(result)
-
