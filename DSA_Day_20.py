@@ -64,7 +64,7 @@
 #             print(True) 
 
 # ===============================
-# Q4: Tic-Tac-Toe Winner Checker ❌⭕
+# Q4: Tic-Tac-Toe Winner Checker
 # Given a 3x3 board ("X", "O", or ""), determine the winner by checking all rows, columns, and both diagonals. 
 
 # Input: [["X","X","X"],
@@ -72,18 +72,36 @@
 #             [" "," "," "]]
 # Output: "X"
 
-def checkWiner(a):
-    for i in range(3):
-        if a[0][i] == a[1][i]== a[2][i]:
-            return a[0][i]
-        if a[i][0] == a[i][1] == a[i][2]:
-            return a[i][0]
-    if a[0][0] == a[1][1] == a[2][2]:
-        return a[0][0]
-    if a[2][0] == a[1][1] == a[0][2]:
-        return a[2][0]
-    return "Nothing....."
+# def checkWiner(a):
+#     for i in range(3):
+#         if a[0][i] == a[1][i]== a[2][i]:
+#             return a[0][i]
+#         if a[i][0] == a[i][1] == a[i][2]:
+#             return a[i][0]
+#     if a[0][0] == a[1][1] == a[2][2]:
+#         return a[0][0]
+#     if a[2][0] == a[1][1] == a[0][2]:
+#         return a[2][0]
+#     return "Nothing....." 
 
-arr = [list(map(str, input().split(","))) for i in range(3)]
-print(arr)
-print(checkWiner(arr))
+# arr = [list(map(str, input().split(","))) for i in range(3)]
+# print(arr)
+# print(checkWiner(arr))
+
+# ======================
+# https://fcc.navgurukul.org/learn/project-euler/project-euler-problems-1-to-100/problem-6-sum-square-difference
+
+# function sumSquareDifference(n) {
+#   let sum = 0;
+#   let sumOfAll = 0
+#   for(let i =1; i <=n; i++){
+#     sum+= i*i
+#     sumOfAll += i
+#   }
+#   sumOfAll = sumOfAll ** 2
+#   return (sumOfAll- sum)
+# }
+
+# sumSquareDifference(100);
+
+# =======================================
