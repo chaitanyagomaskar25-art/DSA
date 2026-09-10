@@ -50,19 +50,19 @@
 # Input: [1,2,3,1,2,3], k=2
 # Output: False   (the repeated values are all more than 2 apart)
 
-a = list(map(int, input().split()))
-k = int(input())
-isExist = False
-for i in range(len(a)):
-    m = k+i+1
-    if m > len(a):
-        m = len(a)
-    for j in range(i+1, m):
-        if a[i] == a[j]:
-            print(True)
-            isExist = True
-            break
-    if isExist:
-        break
-else:
-    print(False)
+# a = list(map(int, input().split()))
+# k = int(input())
+# isExist = False
+# for i in range(len(a)):
+#     m = k+i+1
+#     if m > len(a):
+#         m = len(a)
+#     for j in range(i+1, m):
+#         if a[i] == a[j]:
+#             print(True)
+#             isExist = True
+#             break
+#     if isExist:
+#         break
+# else:
+#     print(False)
