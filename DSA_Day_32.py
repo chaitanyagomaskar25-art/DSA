@@ -2,10 +2,10 @@
 # Print an N x N chessboard pattern using # for one color square and . for the other, alternating so it looks like a real chessboard.
 # INPUT: 5
 # OUTPUT:              #.#.#
-#                               .#.#.
-#                              #.#.#
-#                               .#.#.
-#                              #.#.#
+#                      .#.#.
+#                      #.#.#
+#                      .#.#.
+#                      #.#.#
 
 # n = int(input())
 
