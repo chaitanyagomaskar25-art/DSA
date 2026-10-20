@@ -10,6 +10,7 @@
 # Grade 7: Conditions (i) and (iii)
 # Grade 0: Otherwise
 
+
 # r, t = map(int, input().split())
 # c = float(input())
 # if r > 50:
@@ -28,6 +29,8 @@
 #         print("Grade 8")
 #     else:
 #         print("Grade 0")
+
+
 
 # =====================================================
 # Take the three properties of 5 steel samples using a loop and determine the grade of each sample.
